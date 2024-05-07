@@ -228,6 +228,51 @@ h2 span.stop-blinking::before {
 }
 
 
+.cards-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #0a1f17;
+    border-radius: 20px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card-text a{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.card h1{
+    font-size: 60px;
+}
+
+.card p{
+    font-size: 20px;
+}
+
+.card img{
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+
 @keyframes blink {
     0% {
         opacity: 0;
