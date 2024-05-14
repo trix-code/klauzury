@@ -290,6 +290,30 @@ h2 span.stop-blinking::before {
 
 }
 
+.container-rocnik{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.card-rocnik{
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #0a1f17;
+    border-radius: 20px;
+    }
+
+.card-rocnik img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
 @keyframes blink {
     0% {
         opacity: 0;
@@ -306,7 +330,7 @@ h2 span.stop-blinking::before {
     right: 0;
     left: 0;
     bottom: 0;
-    height: 200px;
+    height: 140px;
     margin-top: 100px;
 }
 
