@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #12372A;   
+}
+/*----------ZACATEK NAVBARU---------- */
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: sticky;
+    background-color: #0D271E;
+    padding: 15px 20px;
+    z-index: 999;
+}
+.logo img {
+    width: 50px;
+    }
+.menu {
+    display: flex;
+}
+.menu li {
+    padding-left: 40px;
+    font-size: 20px;
+    }
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.15s ease-in-out;
+}
+
+.menu li a:hover:after {
+    width: 100%;
+    }
+
+.open-menu , .close-menu {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+    }
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+/*----------KONEC NAVBARU---------- */
+/*----------ZACATEK FOOTERU---------- */
+
+.footer{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 140px;
+    margin-top: 100px;
+}
+
+.footer-nav{
+    font-size: 20px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: #FBFADA;
+}
+
+.footer-nav li{
+    list-style: none;
+    margin: 30px 30px;
+    font-size: 15px;
+}
+
+.footer-nav img{
+    margin-top: 20px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text p{
+   color: #e7e7e3;
+   margin-top: 20px;
+   font-size: 15px;
+}
+/*----------KONEC FOOTERU---------- */
+
+.bg-about img{
+    z-index: -999;
+    position: absolute
+    
+}
+
+h1{
+    font-size: 6vw;
+    text-align: center;
+    color: #FBFADA;
+    margin-top: 70px;
+}
+
+h2{
+    font-size: 4.5vw;
+    text-align: center;
+    color: #FBFADA;
+    margin-top: 70px;
+}
+
+hr{
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    width: 15%;
+}
+
+p {
+    font-size: 1vw;
+    margin-top: 50px;
+    color: #fff;
+    text-align: justify;
+}
+
+a{
+    font-size: 1vw;
+    color: #FBFADA;
+    display: flex;
+    justify-content: center;
+}
+
+b{
+    color: #FBFADA;
+}
+
+.vs-main-text{
+    width: 50%;
+    margin: auto;
+}
+
+.vs-main-text p{
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.vs-text{
+    width: 60%;
+    margin: auto;
+}
+
+.vs-text p{
+    font-size: 1.6vw;
+}
+
+.vs-text img{
+    margin: auto;
+}
+
+.vs-code-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    gap: 20px;
+    width: 50%;
+}
+
+.vs-code-img img{
+    height: 34vw;
+}
+
+/*----------ZACATEK PROGRESS BARU---------- */
+  
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin: auto;
+}
+  
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+  
+.skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+  
+.skill-per{
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 4.5s 1;
+}
+  
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+  
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+/*----------KONEC PROGRESS BARU---------- */
+ /*----------ZACATEK SLIDE SWHOW---------- */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+ 
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #a3a3a3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #FBFADA;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .7} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /*----------KONEC SLIDE SWHOW---------- */
+  
+@keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
+
+  /*----------ZACATEK RESPONZIVNIHO MENU---------- */
+  #check {display: none;}
+@media(max-width: 810px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #0a1f17;
+        transition: all 0.8s ease-in-out;
+        }
+
+    .menu li { 
+        margin-top: 40px;
+        }
+    .menu li a {
+        padding: 10px;
+    }
+
+
+.open-menu , .close-menu {display: block;}
+#check:checked ~ .menu {right: 0;}
+}
+
+@media only screen and (max-width: 1100px) {
+
+    h1{
+        font-size: 9vw;
+    }
+
+    .vs-main-text p{
+        font-size: 1.5vw;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
+
+    .vs-text p{
+        font-size: 2vw;
+    }
+
+    .slideshow-container{
+        max-width: 700px;
+    }
+
+    a{
+        font-size: 1.3vw;
+    }
+
+    .vs-code-img img{
+        height: 45vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .skills{
+        max-width: 460px;
+    }
+
+    h1{
+        font-size: 11vw;
+    }
+
+    .vs-main-text p{
+        font-size: 2.4vw;
+    }
+    .vs-main-text{
+        width: 70%;
+    }
+
+    h2{
+        font-size: 8vw;
+    }
+
+    .vs-text p{
+        font-size: 2.5vw;
+    }
+    .vs-text{
+        width: 70%;
+    }
+
+    .slideshow-container{
+        max-width: 500px;
+    }
+
+    a{
+        font-size: 2.5vw;
+    }
+
+    hr{
+        margin-top: 4px;
+    }
+
+    .vs-code-img img{
+        height: 60vw;
+    }
+
+    
+    .footer-nav img{
+        display: none;
+    }
+
+    .footer-nav li{
+        font-size: 12px;
+    }
+
+    .footer-text p{
+        font-size: 7px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .skills{
+        max-width: 400px;
+    }
+
+    h1{
+        font-size: 16vw;
+    }
+
+    .vs-main-text p{
+        font-size: 2.7vw;
+    }
+    .vs-main-text{
+        width: 70%;
+    }
+
+    h2{
+        font-size: 14vw;
+    }
+
+    .vs-text p{
+        font-size: 3.6vw;
+    }
+    .vs-text{
+        width: 70%;
+    }
+
+    .slideshow-container{
+        max-width: 400px;
+    }
+
+    .dot{
+        height: 8px;
+        width: 8px;
+    }
+
+    a{
+        font-size: 4vw;
+    }
+
+    hr{
+        margin-top: 4px;
+    }
+
+    .vs-code-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .vs-code-img img{
+        height: 100vw;
+    }
+}
