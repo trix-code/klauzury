@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klauzury</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
             <input type='checkbox' id='check' />
             <span class="menu">
                 <li><a href="about.html">O mně</a></li>
-                <li><a href="">Práce</a></li>
+                <li><a href="work.html">Práce</a></li>
                 <li><a href="">Kontakt</a></li>
                 <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
             </span>
@@ -32,10 +32,12 @@
     </nav>
 
     <div class="bg-about">
-        <img src="bg.png" height="¨90%" width="100%">
+        <img src="bg-images/bg-omne.png" height="¨90%" width="100%">
     </div>
 
-    <h1>O mně</h1>
+    <div data-aos="fade-right">
+        <h1>O mně</h1>
+    </div>
     <hr>
         <div class="cards-container">
                 <div class="card">
@@ -46,9 +48,9 @@
                             Svůj první sport jsem objevil <br>
                             florbal za tým Panthers Otrokovice
                         </p>
-                        <a href="">Číst více</a>
+                        <a href="about-sport.html">Číst více</a>
                     </div>
-                    <img src="sport.png" height="170px">
+                    <img src="icons/sport.png" height="170px">
                 </div>
             
         
@@ -60,7 +62,7 @@
                             Svůj první sport jsem objevil <br>
                             florbal za tým Panthers Otrokovice
                         </p>
-                        <a href="">Číst více</a>
+                        <a href="about-code.html">Číst více</a>
                     </div>
                     <img src="icons/visual.png" height="170px">
                 
@@ -70,30 +72,34 @@
                     <div class="card-text">
                         <h1>Ostatní</h1>
                         <p>
-                            Od malinka jsem byl sportovně nadanej.<br> 
-                            Svůj první sport jsem objevil <br>
-                            florbal za tým Panthers Otrokovice
+                            Pokud vás zajíma, jaké sleduji filmy,<br> 
+                            nebo jakou poslouchám hudbu nebo jaké<br> 
+                            jsou moje oblíbné hry, klikněte níže
                         </p>
-                        <a href="">Číst více</a>
+                        <a href="about-other.html">Číst více</a>
                     </div>
-                    <img src="icons/github.png" height="150px">
+                    <img src="icons/other.png" height="150px">
                 </div>
         </div>
 
+    <div data-aos="fade-right">
         <div class="footer">
             <div class="footer-nav">
-                <img src="icons/ig.png" height="35px"><a href="https://www.instagram.com/tomas.kotikk/"><li>Instagram</li></a>
-                    <img src="icons/github.png" height="35px"><a href="https://github.com/trix-code"><li>Github</li></a>
-                <img src="icons/spotify.png" height="35px"><a href="https://open.spotify.com/playlist/6HpgjMmzlQheRbyJet7djT?si=437a514f4cf4452a"><li>Spotify</li></a>
-                
+                <img src="icons/ig.png" height="35px" target="_blank"><a href="https://www.instagram.com/tomas.kotikk/"><li>Instagram</li></a>
+                    <img src="icons/github.png" height="35px" target="_blank"><a href="https://github.com/trix-code"><li>Github</li></a>
+                <img src="icons/spotify.png" height="35px" target="_blank"><a href="https://open.spotify.com/playlist/6HpgjMmzlQheRbyJet7djT?si=437a514f4cf4452a"><li>Spotify</li></a>
             </div><hr>
 
             <div class="footer-text">
                 <p>Icons by Icondfinder</p>
             </div>
         </div>
-        
+    </div>
 
+    <script>
+        AOS.init();
+      </script>
+        
 <body>
     
 </body>
