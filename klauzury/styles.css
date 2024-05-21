@@ -529,6 +529,207 @@ h2 span.stop-blinking::before {
 
 /*------------Konec Other Gallery------------*/
 
+/*------------Zacatek ABOUUT - CODE------------*/
+
+.vs-main-text{
+    width: 50%;
+    margin: auto;
+}
+
+.vs-main-text p{
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.vs-text{
+    width: 60%;
+    margin: auto;
+}
+
+.vs-text p{
+    font-size: 1.6vw;
+}
+
+.main-elements-code h2{
+    font-size: 4.5vw;
+    text-align: center;
+    color: #FBFADA;
+    margin-top: 70px;
+}
+
+.main-elements-code hr{
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    width: 15%;
+    margin-top: 10px;
+}
+
+.main-elements-code p{
+    font-size: 1vw;
+    margin-top: 50px;
+    color: #fff;
+    text-align: justify;
+}
+
+.main-elements-code a{
+    font-size: 1vw;
+    color: #FBFADA;
+    display: flex;
+    justify-content: center;
+}
+
+.vs-text img{
+    margin: auto;
+}
+
+.vs-code-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    gap: 20px;
+    width: 50%;
+}
+
+.vs-code-img img{
+    height: 34vw;
+}
+
+/*----------ZACATEK PROGRESS BARU---------- */
+  
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin: auto;
+}
+  
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+  
+.skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+  
+.skill-per{
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 4.5s 1;
+}
+  
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+  
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+/*----------KONEC PROGRESS BARU---------- */
+
+/*----------ZACATEK SLIDE SWHOW---------- */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+ 
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #a3a3a3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #FBFADA;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .7} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  
+  
+@keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
+
+  /*----------KONEC SLIDE SWHOW---------- */
+
 /*------------Zacatek Footru------------*/
 
 .footer{
@@ -687,6 +888,34 @@ h2 span.stop-blinking::before {
     .card-rocnik img{
         height: 100px;
     }
+
+    .main-elements-code h1{
+        font-size: 9vw;
+    }
+
+    .vs-main-text p{
+        font-size: 1.5vw;
+    }
+
+    .main-elements-code h2{
+        font-size: 7vw;
+    }
+
+    .vs-text p{
+        font-size: 2vw;
+    }
+
+    .slideshow-container{
+        max-width: 700px;
+    }
+
+    .main-elements-code a{
+        font-size: 1.3vw;
+    }
+
+    .vs-code-img img{
+        height: 45vw;
+    }
   }
 /*-----------Responzivita tablet------------*/
 
@@ -769,6 +998,49 @@ h2 span.stop-blinking::before {
 
     .gallery-img-hudba img{
         height: 200px;
+    }
+
+    .skills{
+        max-width: 460px;
+    }
+
+    .main-elements-code h1{
+        font-size: 11vw;
+    }
+
+    .vs-main-text p{
+        font-size: 2.4vw;
+    }
+
+    .vs-main-text{
+        width: 70%;
+    }
+
+    .main-elements-code h2{
+        font-size: 8vw;
+    }
+
+    .vs-text p{
+        font-size: 2.5vw;
+    }
+    .vs-text{
+        width: 70%;
+    }
+
+    .slideshow-container{
+        max-width: 500px;
+    }
+
+    .main-elements-code a{
+        font-size: 2.5vw;
+    }
+
+    .main-elements-code hr{
+        margin-top: 4px;
+    }
+
+    .vs-code-img img{
+        height: 60vw;
     }
   }
 
@@ -912,6 +1184,58 @@ h2 span.stop-blinking::before {
         margin: auto;
         text-align: center;
         margin-top: 50px;
+    }
+
+    .skills{
+        max-width: 400px;
+    }
+
+    .main-elements-code h1{
+        font-size: 16vw;
+    }
+
+    .vs-main-text p{
+        font-size: 2.7vw;
+    }
+    .vs-main-text{
+        width: 70%;
+    }
+
+    .main-elements-code h2{
+        font-size: 14vw;
+    }
+
+    .vs-text p{
+        font-size: 3.6vw;
+    }
+    .vs-text{
+        width: 70%;
+    }
+
+    .slideshow-container{
+        max-width: 400px;
+    }
+
+    .dot{
+        height: 8px;
+        width: 8px;
+    }
+
+    .main-elements-code a{
+        font-size: 4vw;
+    }
+
+    .vs-code-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .vs-code-img img{
+        height: 100vw;
+    }
+
+    .main-elements-code hr{
+        margin-top: 4px;
     }
   }
   
