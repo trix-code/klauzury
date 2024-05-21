@@ -332,7 +332,7 @@ h2 span.stop-blinking::before {
 /*-----------Konec Rocnik - cards------------*/
 /*-----------Začátek Gallery IMG- práce------------*/
 .work-gallery {
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -348,6 +348,7 @@ h2 span.stop-blinking::before {
 .gallery-img img {
     display: block;
     transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 10px;
 }
 
 .overlay {
@@ -359,12 +360,21 @@ h2 span.stop-blinking::before {
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.5s ease;
-    display: flex;
-    justify-content: center;
     align-items: center;
     color: white;
     font-size: 24px;
     text-align: center;
+    border-radius: 10px;
+}
+
+.overlay h1{
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.overlay a{
+    font-size: 20px;
+    color: #FBFADA;
 }
 
 .gallery-img:hover img {
@@ -508,10 +518,7 @@ h2 span.stop-blinking::before {
         margin: auto;
     }
 
-  }
-    /* Responzivita o mně */
-  @media only screen and (max-width: 1000px) {
- 
+    
     .card img{
         display: none;
     }
@@ -544,6 +551,8 @@ h2 span.stop-blinking::before {
         height: 100px;
     }
   }
+
+
 
     /* Responzivita tablet */
   @media only screen and (max-width: 810px) {
@@ -583,6 +592,30 @@ h2 span.stop-blinking::before {
         margin: auto;
         height: 200px;
         margin-top: -20px;
+    }
+
+    .work-gallery {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-img img{
+        height: 200px;
+    }
+
+    .overlay h1{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .overlay p{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .overlay a{
+        font-size: 12px;
     }
 
   }
@@ -669,5 +702,27 @@ h2 span.stop-blinking::before {
     .card-text p{
         font-size: 10px;
       }
+
+      .gallery-img img{
+        height: 150px;
+    }
+
+    .work-gallery {
+        width: 100%;
+    }
+
+    .overlay h1{
+        font-size: 23px;
+        margin-top: 30px;
+    }
+
+    .overlay p{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    .img-h1 img{
+        height: 150px;
+    }
   }
   
