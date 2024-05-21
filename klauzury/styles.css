@@ -77,46 +77,17 @@ body{
 }
 
 
-/* Konec navbaru */
+/*------ Konec navbaru ------*/
 
-/* Vizual */
+/*-------Zacatek Index main page------*/
     
 .text-conteiner {
     text-align: center;
     width: 45%;
-    margin-top: 250px;
+    margin-top: 150px;
     font-size: 20px;
     margin-left: 20px;
     
-}
-
-.socky-conteiner {
-    position: absolute;
-    bottom: 20px; 
-    left: 25%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-text{
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: auto;
-    margin-top: 70px;
-    gap: 60px;
-}
-
-.main-text img{
-    margin: auto;
-    margin-top: 30px;
-}
-
-.socky-conteiner img {
-    margin: 0 10px; 
-    height: 50px;
 }
 
 .icons-conteiner {
@@ -145,6 +116,24 @@ body{
     margin: auto;
     border: 2px solid rgb(255, 255, 255);
 }
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*------ Konec Index main page------*/
+/*------- Zacatek basdic elements------*/
 
 h1{
     font-size: 90px;
@@ -219,27 +208,14 @@ h2 span.stop-blinking::before {
     margin-top: 30px;
 }
 
-.bg-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.bg-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .bg-about img{
     z-index: -999;
     position: absolute
     
 }
+/*--------- Konec basic elements-------------*/
 /*-----------Začátek About- cards------------*/
+
 .cards-container{
     width: 70%;
     margin: auto;
@@ -330,6 +306,63 @@ h2 span.stop-blinking::before {
 }
 
 /*-----------Konec Rocnik - cards------------*/
+/*-----------Zacatek About- cards------------*/
+.cards-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.card{
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #0a1f17;
+    border-radius: 20px;
+    }
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -45px;
+}
+
+.card-text a{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.card-text a:hover{
+    color: #FBFADA;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: #10241c;
+    transition: 0.3s;
+}
+
+.card h1{
+    font-size: 50px;
+}
+
+.card p{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.card img{
+   margin-top: 40px;
+   margin-left: 40Px;
+}
+/*-----------Konec About- cards------------*/
 /*-----------Začátek Gallery IMG- práce------------*/
 .work-gallery {
     width: 90%;
@@ -351,6 +384,7 @@ h2 span.stop-blinking::before {
     border-radius: 10px;
 }
 
+/*-----------Začátek Hoover efect------------*/
 .overlay {
     position: absolute;
     top: 0;
@@ -384,6 +418,7 @@ h2 span.stop-blinking::before {
 .gallery-img:hover .overlay {
     opacity: 1;
 }
+/*-----------konec Hoover efect------------*/
 /*------------Konec Gallery IMG- práce------------*/
 
 @keyframes blink {
@@ -397,6 +432,103 @@ h2 span.stop-blinking::before {
         opacity: 0;
     }
 }
+/*------------Zacatek Other Gallery------------*/
+
+.bg-about a{
+    color: #FBFADA;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.main-elements-other p{
+    display: flex;
+    justify-content: center;
+}
+
+.work-gallery {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.work-gallery a{
+    color: #FBFADA;
+    font-size: 1.4vw
+}
+
+.gallery-img {
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-img-hudba {
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.gallery-img-hudba img {
+    display: block;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 10px;
+}
+
+.gallery-img img {
+    display: block;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.overlay a{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50%;
+    text-decoration: none;
+}
+
+.gallery-img:hover img {
+    opacity: 0.3;
+}
+
+.gallery-img-hudba:hover img {
+    opacity: 0.3;
+}
+
+.gallery-img:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-img-hudba:hover .overlay {
+    opacity: 1;
+}
+
+/*------------Konec Other Gallery------------*/
+
+/*------------Zacatek Footru------------*/
 
 .footer{
     right: 0;
@@ -439,9 +571,10 @@ h2 span.stop-blinking::before {
    font-size: 15px;
 }
 
-    /* Konec-Vizual */
+/*------------Konec Footeru------------*/
 
-    /* Responzivita menu */
+
+/*----------Responzivita menu---------- */
 
     #check {display: none;}
     @media(max-width: 810px){
@@ -471,7 +604,8 @@ h2 span.stop-blinking::before {
     #check:checked ~ .menu {right: 0;}
 }
 
-/* Responzivita puvodni sirky */
+/*----------Responzivita menu---------- */
+/*----------Responzivita puvodni sirky-- */
 
 @media only screen and (max-width: 1920px) {
     .text-conteiner h1{
@@ -485,7 +619,9 @@ h2 span.stop-blinking::before {
     }
   }
 
-    /* Responzivita tablet */
+ /*----------Responzivita puvodni sirky-- */
+
+/*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 1000px) {
     .text-conteiner h1{
         margin-top: 30%;
@@ -551,10 +687,10 @@ h2 span.stop-blinking::before {
         height: 100px;
     }
   }
+/*-----------Responzivita tablet------------*/
 
 
-
-    /* Responzivita tablet */
+/*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 810px) {
     .text-conteiner h1{
         margin-top: 120px;
@@ -618,9 +754,28 @@ h2 span.stop-blinking::before {
         font-size: 12px;
     }
 
+    .gallery-img img{
+        height: 260px;
+    }
+
+    .gallery-img{
+        width: 90%;;
+    }
+
+    .bg-about a{
+        font-size: 3vw;
+    }
+
+    .gallery-img-hudba img{
+        height: 200px;
+        
+    }
+
   }
 
-  /* Responzivita mobil */
+/*-----------Responzivita tablet------------*/
+
+/*-----------Responzivita mobil------------*/
 
   @media only screen and (max-width: 617px) {
    
@@ -723,6 +878,18 @@ h2 span.stop-blinking::before {
 
     .img-h1 img{
         height: 150px;
+    }
+
+    .gallery-img img{
+        height: 320px;
+    }
+
+    .gallery-img-hudba img{
+        height: 200px;
+    }
+
+    .overlay{
+        border-radius: 10px;
     }
   }
   
