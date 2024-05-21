@@ -372,20 +372,20 @@ h2 span.stop-blinking::before {
     justify-content: space-around;
 }
 
-.gallery-img {
+.gallery-img-vs {
     position: relative;
     margin: 20px;
     overflow: hidden;
 }
 
-.gallery-img img {
+.gallery-img-vs img {
     display: block;
     transition: transform 0.5s ease, opacity 0.5s ease;
     border-radius: 10px;
 }
 
 /*-----------Začátek Hoover efect------------*/
-.overlay {
+.overlay-vs {
     position: absolute;
     top: 0;
     left: 0;
@@ -401,21 +401,22 @@ h2 span.stop-blinking::before {
     border-radius: 10px;
 }
 
-.overlay h1{
+.overlay-vs h1{
     margin-top: 120px;
-    font-size: 30px;
+    font-size: 1.5vw
 }
 
-.overlay a{
-    font-size: 20px;
-    color: #FBFADA;
+.overlay-vs a{
+    display: flex;
+    justify-content: center;
+    font-size: 1000px;
+    margin-top: 40Px;
 }
-
-.gallery-img:hover img {
+.gallery-img-vs:hover img {
     opacity: 0.3;
 }
 
-.gallery-img:hover .overlay {
+.gallery-img-vs:hover .overlay-vs {
     opacity: 1;
 }
 /*-----------konec Hoover efect------------*/
@@ -459,7 +460,7 @@ h2 span.stop-blinking::before {
     font-size: 1.4vw
 }
 
-.gallery-img {
+.gallery-img-other {
     position: relative;
     margin: 20px;
     overflow: hidden;
@@ -467,25 +468,25 @@ h2 span.stop-blinking::before {
     justify-content: center;
 }
 
-.gallery-img-hudba {
+.gallery-img-other-hudba {
     position: relative;
     margin: 20px;
     overflow: hidden;
 }
 
-.gallery-img-hudba img {
+.gallery-img-other-hudba img {
     display: block;
     transition: transform 0.5s ease, opacity 0.5s ease;
     border-radius: 10px;
 }
 
-.gallery-img img {
+.gallery-img-other img {
     display: block;
     transition: transform 0.5s ease, opacity 0.5s ease;
     border-radius: 10px;
 }
 
-.overlay {
+.overlay-other {
     position: absolute;
     top: 0;
     left: 0;
@@ -502,7 +503,7 @@ h2 span.stop-blinking::before {
 }
 
 
-.overlay a{
+.overlay-other a{
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -510,19 +511,19 @@ h2 span.stop-blinking::before {
     text-decoration: none;
 }
 
-.gallery-img:hover img {
+.gallery-img-other:hover img {
     opacity: 0.3;
 }
 
-.gallery-img-hudba:hover img {
+.gallery-img-other-hudba:hover img {
     opacity: 0.3;
 }
 
-.gallery-img:hover .overlay {
+.gallery-img-other:hover .overlay-other {
     opacity: 1;
 }
 
-.gallery-img-hudba:hover .overlay {
+.gallery-img-other-hudba:hover .overlay-other {
     opacity: 1;
 }
 
@@ -736,29 +737,29 @@ h2 span.stop-blinking::before {
         flex-wrap: wrap;
     }
 
-    .gallery-img img{
-        height: 200px;
+    .gallery-img-other img{
+        height: 300px;
     }
 
-    .overlay h1{
+    .overlay-vs h1{
         font-size: 30px;
         margin-top: 50px;
     }
 
-    .overlay p{
+    .overlay-vs p{
         font-size: 15px;
         margin-top: 30px;
     }
 
-    .overlay a{
+    .overlay-vs a{
         font-size: 12px;
     }
 
-    .gallery-img img{
+    .gallery-img-vs img{
         height: 260px;
     }
 
-    .gallery-img{
+    .gallery-img-vs{
         width: 90%;;
     }
 
@@ -768,9 +769,7 @@ h2 span.stop-blinking::before {
 
     .gallery-img-hudba img{
         height: 200px;
-        
     }
-
   }
 
 /*-----------Responzivita tablet------------*/
@@ -826,7 +825,6 @@ h2 span.stop-blinking::before {
         margin-top: -20px;
     }
 
-
     .footer-nav img{
         display: none;
     }
@@ -858,20 +856,15 @@ h2 span.stop-blinking::before {
         font-size: 10px;
       }
 
-      .gallery-img img{
-        height: 150px;
-    }
-
     .work-gallery {
         width: 100%;
     }
 
-    .overlay h1{
-        font-size: 23px;
-        margin-top: 30px;
+    .gallery-img-vs img{
+        height: 140px;
     }
 
-    .overlay p{
+    .overlay-other p{
         font-size: 13px;
         margin-top: 30px;
     }
@@ -879,17 +872,46 @@ h2 span.stop-blinking::before {
     .img-h1 img{
         height: 150px;
     }
-
-    .gallery-img img{
-        height: 320px;
+    .gallery-img-other-hudba img{
+        height: 250px;
     }
 
-    .gallery-img-hudba img{
-        height: 200px;
+    .gallery-img-other img{
+        height: 300Px;
     }
 
-    .overlay{
+    .overlay-other{
         border-radius: 10px;
+    }
+
+    .work-gallery{
+        width: 100%;
+    }
+
+    .overlay-vs h1{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .overlay-vs p{
+        font-size: 8px;
+        margin-top: 30px;
+    }
+
+    .overlay-vs a{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .overlay-other a{
+        font-size: 20px;
+    }
+
+    .main-elements-other p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
     }
   }
   
