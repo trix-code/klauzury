@@ -76,21 +76,24 @@ body{
     right: 20px;
 }
 
-h1{
+.main-element-sport h1{
     font-size: 90px;
     text-align: center;
     color: #FBFADA;
     margin-top: 70px;
 }
 
-h2{
+.main-element-sport h2{
     font-size: 5vw;
     color: #FBFADA;
-    
 }
 
-p{
-    font-size: 1.2vw;
+.main-element-sport b{
+    color: #FBFADA ;
+}
+
+.main-element-sport p{
+    font-size: 1.5vw;
     color: white;
     display: block;
     margin-top: 40Px;
@@ -109,7 +112,7 @@ hr{
     position: absolute
 }
 
-.content-obsah{
+.content-obsah-sport{
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -122,19 +125,19 @@ hr{
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
-    margin-top: 50px; 
+    margin-top: 60px; 
 }
 
-.content-obsah img {
+.content-obsah-sport img {
     margin-top: 100px;
-    height: 350px; 
+    height: 300px; 
     border-radius: 10px;
     object-fit: cover; 
 }
 
 .content-obsah-reverse img {
     margin-top: 110px;
-    height: 350px; 
+    height: 300px; 
     border-radius: 10px;
     object-fit: cover; 
 }
@@ -178,4 +181,61 @@ hr{
     
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .content-obsah-sport{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text{
+        margin: auto;
+        text-align: center;
+    }
+    .main-element-sport a{
+        font-size: 1.7vw;
+    }
+
+    .content-obsah-sport img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw    ;
+    }
+
+    .main-element-sport h2{
+        font-size: 3vw;
+    }
+
+    .content-obsah-reverse{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-reverse{
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-element-sport p{
+       font-size: 2vw;
+       margin: auto;
+       align-items: center;
+       margin-top: 30px;
+    }
+
+    .content-text-reverse p{
+        float: none;
+    }
+
+    .content-obsah-reverse img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw;
+    }
 }
