@@ -23,7 +23,7 @@
             <input type='checkbox' id='check' />
             <span class="menu">
                 <li><a href="about.html">O mně</a></li>
-                <li><a href="work.html">Práce</a></li>
+                <li><a href="work-vs.html">Práce</a></li>
                 <li><a href="">Kontakt</a></li>
                 <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
             </span>
@@ -31,51 +31,46 @@
         </ul>
     </nav>
 
-    <div class="bg-about">
-        <img src="pictures/bg-images/bg-work.png" height="¨90%" width="100%">
+    <div class="main-element-contact">
+        <h1>Kontakt</h1>
+            <hr>
+        <p>
+            Máte na mě jakkýkoliv dotaz? Neváhete a <h3>KONTAKTUJTE MĚ!</h3>
+        </p>
     </div>
+
+    <form id="contactform" action="https://formsubmit.io/send/put your email here" method="POST">
+        <div class="contact-flex">
+            <div class="contact-form">
+                <div class="contact-input">
+                    <input name="name" placeholder=" JMÉNO" type="text" id="name">
+                    <input name="email" placeholder=" EMAIL" type="email" id="email">
+                </div>
+                    <textarea  name="comment" placeholder=" Co máte na srdci..." id="comment" rows="3"></textarea>
+                    <input value="Odeslat!" type="submit">
+            </div>
+
+                <img src="pictures/sport img/rugby.jpg">
+        </div>
+    </form>
 
     <div data-aos="fade-right">
-        <h1>Práce</h1>
-            <hr>
+        <div class="footer">
+            <div class="footer-nav">
+                <img src="pictures/icons/ig.png" height="35px" target="_blank"><a href="https://www.instagram.com/tomas.kotikk/"><li>Instagram</li></a>
+                    <img src="pictures/icons/github.png" height="35px" target="_blank"><a href="https://github.com/trix-code"><li>Github</li></a>
+                <img src="pictures/icons/spotify.png" height="35px" target="_blank"><a href="https://open.spotify.com/playlist/6HpgjMmzlQheRbyJet7djT?si=437a514f4cf4452a"><li>Spotify</li></a>
+            </div><hr>
+
+            <div class="footer-text">
+                <p>Icons by Icondfinder</p>
+            </div>
+        </div>
     </div>
 
-        <div class="container-rocnik">
-            <div class="card-rocnik">
-                <a href="work-vs.html">
-                    <img src="pictures/icons/visual.png" height="200px">
-                </a>
-            </div>
+    <script>
+        AOS.init();
+      </script>
 
-            <div class="card-rocnik">
-                <a href="work-photosop.html">
-                    <img src="pictures/icons/photoshop.png" height="200px">
-                </a>
-            </div>
-
-            <div class="card-rocnik">
-                <a href="lightroom.html">
-                    <img src="pictures/icons/lightroom.png" height="200px">
-                </a>
-            </div>
-        </div>
-
-        <div data-aos="fade-right">
-            <div class="footer">
-                <div class="footer-nav">
-                    <img src="pictures/icons/ig.png" height="35px" target="_blank"><a href="https://www.instagram.com/tomas.kotikk/"><li>Instagram</li></a>
-                        <img src="pictures/icons/github.png" height="35px" target="_blank"><a href="https://github.com/trix-code"><li>Github</li></a>
-                    <img src="pictures/icons/spotify.png" height="35px" target="_blank"><a href="https://open.spotify.com/playlist/6HpgjMmzlQheRbyJet7djT?si=437a514f4cf4452a"><li>Spotify</li></a>
-                </div><hr>
-
-                <div class="footer-text">
-                    <p>Icons by Icondfinder</p>
-                </div>
-            </div>
-        </div>
-
-        <script>
-            AOS.init();
-          </script>
 </body>
 </html>
