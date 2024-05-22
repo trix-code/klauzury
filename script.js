@@ -11,7 +11,6 @@ const typeEffect = () => {
     const currentChar = currentWord.substring(0, charIndex);
     //spočítání znaků  
     dynamicText.textContent = currentChar;
-    dynamicText.classList.add("stop-blinking");
     //příčítáni slov
     if (!isDeleting && charIndex < currentWord.length) {
         charIndex++;
@@ -23,7 +22,6 @@ const typeEffect = () => {
     //přidání nového slova
     } else {
         isDeleting = !isDeleting;
-        dynamicText.classList.remove("stop-blinking");
         wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
         setTimeout(typeEffect, 1200);
     }
