@@ -39,7 +39,7 @@ body{
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-align: center;
-    transition: 0.15s ease-in-out;
+    transition: 0.5s ease-in-out;
     position: relative;
 }
 
@@ -51,7 +51,7 @@ body{
     width: 0;
     height: 2px;
     background-color: rgb(255, 255, 255);
-    transition: 0.15s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .menu li a:hover:after {
@@ -363,6 +363,78 @@ h2 span.stop-blinking::before {
    margin-left: 40Px;
 }
 /*-----------Konec About- cards------------*/
+/*-----------Začátek SPORT------------*/
+
+
+.main-element-sport h1{
+    font-size: 90px;
+    text-align: center;
+    color: #FBFADA;
+    margin-top: 70px;
+}
+
+.main-element-sport h2{
+    font-size: 5vw;
+    color: #FBFADA;
+    
+}
+
+.main-element-sport p{
+    font-size: 1.2vw;
+    color: white;
+    display: block;
+    margin-top: 40Px;
+    text-align: justify;
+    width: 80%;
+}
+
+
+.content-obsah-sport{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+.content-obsah-reverse{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+
+.content-obsah img {
+    margin-top: 100px;
+    height: 350px; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.content-obsah-reverse img {
+    margin-top: 110px;
+    height: 350px; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.content-text a{
+    color: #FBFADA;
+    font-size: 1.2vw
+}
+
+.content-text-reverse{
+    text-align: right;
+}
+
+.content-text-reverse p{
+    float: right;
+}
+
+/*-----------Začátek SPORT------------*/
+
 /*-----------Začátek Gallery IMG- práce------------*/
 .work-gallery {
     width: 90%;
@@ -729,7 +801,100 @@ h2 span.stop-blinking::before {
   }
 
   /*----------KONEC SLIDE SWHOW---------- */
+  /*----------ZACATEK CONTACTU---------- */
 
+  .contact-flex{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .contact-flex img{
+    margin-top: 100px;
+    margin: auto;
+    height: 23vw;
+  }
+
+  .contact-form{
+    width: 40%;
+    height: 540px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #436850;
+    margin-top: 30px;
+    border-radius: 30px;
+  }
+
+.contact-input{
+    display: flex;
+    flex-direction: row;
+}
+
+  input{
+    resize: none;
+    height: 60px;
+    width: 42%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #D7D7D7;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  textarea{
+    resize: none;
+    height: 300px;
+    width: 92%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #D7D7D7;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ECECEC;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 15px auto;
+    display: block;
+    font-size: 20PX;
+}
+
+input[type="submit"]:hover {
+    background-color: #a8a8a8;
+    transition: 0.3S;
+}
+
+  ::placeholder{
+    font-size: 20px;
+  }
+
+  .main-element-contact p{
+    font-size: 1.5vw;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .main-element-contact h3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+  }
+
+
+/*----------KONEC CONTACTU---------- */
 /*------------Zacatek Footru------------*/
 
 .footer{
@@ -915,6 +1080,28 @@ h2 span.stop-blinking::before {
 
     .vs-code-img img{
         height: 45vw;
+    }
+
+    .contact-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-flex img{
+        margin-top: 50px;
+        height: 40vw;
+    }
+
+    .contact-form{
+        width: 70%;
+    }
+
+    .main-element-contact P{
+        font-size: 2vw;
+    }
+
+    .main-element-contact h3{
+        font-size: 2.5vw;
     }
   }
 /*-----------Responzivita tablet------------*/
@@ -1237,5 +1424,36 @@ h2 span.stop-blinking::before {
     .main-elements-code hr{
         margin-top: 4px;
     }
+
+    .contact-flex img{
+        height: 50vw;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+
+    .contact-input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        margin-top: 20px;
+        width: 80%;
+        height: 38px;
+    }
+
+    textarea{
+        width: 80%;
+
+    }
+
+    input[type="submit"] {
+        width: 60%;
+        font-size: 20px;
+        height: 60px;
+    }
+
   }
   
