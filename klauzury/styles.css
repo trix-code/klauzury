@@ -367,9 +367,7 @@ h2 span.stop-blinking::before {
 }
 /*-----------Konec About- cards------------*/
 /*-----------Začátek SPORT------------*/
-
-
-.main-element-sport h1{
+main-element-sport h1{
     font-size: 90px;
     text-align: center;
     color: #FBFADA;
@@ -379,11 +377,14 @@ h2 span.stop-blinking::before {
 .main-element-sport h2{
     font-size: 5vw;
     color: #FBFADA;
-    
+}
+
+.main-element-sport b{
+    color: #FBFADA ;
 }
 
 .main-element-sport p{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     color: white;
     display: block;
     margin-top: 40Px;
@@ -405,20 +406,19 @@ h2 span.stop-blinking::before {
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
-    margin-top: 50px; 
+    margin-top: 60px; 
 }
 
-
-.content-obsah img {
+.content-obsah-sport img {
     margin-top: 100px;
-    height: 350px; 
+    height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
 }
 
 .content-obsah-reverse img {
     margin-top: 110px;
-    height: 350px; 
+    height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
 }
@@ -449,7 +449,7 @@ h2 span.stop-blinking::before {
 
 .gallery-img-vs {
     position: relative;
-    margin: 20px;
+    margin: 30px;
     overflow: hidden;
 }
 
@@ -804,7 +804,8 @@ h2 span.stop-blinking::before {
   }
 
   /*----------KONEC SLIDE SWHOW---------- */
-  /*----------ZACATEK CONTACTU---------- */
+  
+/*----------ZACATEK CONTACTU---------- */
 
   .contact-flex{
     display: flex;
@@ -815,9 +816,9 @@ h2 span.stop-blinking::before {
   }
 
   .contact-flex img{
-    margin-top: 100px;
+    margin-top: 130px;
     margin: auto;
-    height: 35vw;
+    height: 32vw;
     border-radius: 20px;
   }
 
@@ -944,8 +945,6 @@ input[type="submit"]:hover {
 }
 
 /*------------Konec Footeru------------*/
-
-
 /*----------Responzivita menu---------- */
 
     #check {display: none;}
@@ -991,8 +990,7 @@ input[type="submit"]:hover {
     }
   }
 
- /*----------Responzivita puvodni sirky-- */
-
+/*----------Responzivita puvodni sirky-- */
 /*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 1000px) {
     .text-conteiner h1{
@@ -1059,6 +1057,8 @@ input[type="submit"]:hover {
         height: 100px;
     }
 
+    /*CODING*/
+
     .main-elements-code h1{
         font-size: 9vw;
     }
@@ -1092,9 +1092,11 @@ input[type="submit"]:hover {
         flex-direction: column;
     }
 
+    /*CONTACT*/
+
     .contact-flex img{
         margin-top: 50px;
-        height: 40vw;
+        height: 50vw;
     }
 
     .contact-form{
@@ -1108,10 +1110,70 @@ input[type="submit"]:hover {
     .main-element-contact h3{
         font-size: 2.5vw;
     }
+
+    .content-obsah-sport{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text{
+        margin: auto;
+        text-align: center;
+    }
+    .main-element-sport a{
+        font-size: 1.7vw;
+    }
+
+    .content-obsah-sport img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw    ;
+    }
+
+    .main-element-sport h2{
+        font-size: 3vw;
+    }
+
+    .content-obsah-reverse{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-text-reverse{
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-element-sport p{
+       font-size: 2vw;
+       margin: auto;
+       align-items: center;
+       margin-top: 30px;
+    }
+
+    .content-text-reverse p{
+        float: none;
+    }
+
+    .content-obsah-reverse img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw;
+    }
+
+    .content-obsah-reverse h2, .content-obsah-sport h2{
+        font-size: 7vw;
+    }
+      
+    .main-element-sport h1{
+        font-size: 10vw;
+    }
   }
 /*-----------Responzivita tablet------------*/
-
-
 /*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 810px) {
     .text-conteiner h1{
@@ -1235,13 +1297,9 @@ input[type="submit"]:hover {
         height: 60vw;
     }
   }
-
 /*-----------Responzivita tablet------------*/
-
 /*-----------Responzivita mobil------------*/
-
   @media only screen and (max-width: 617px) {
-   
     .bg-img{
         display: none;
     }
@@ -1430,8 +1488,35 @@ input[type="submit"]:hover {
         margin-top: 4px;
     }
 
+    /*SPORT*/
+
+    .main-element-sport a{
+        font-size: 3vw;
+    }
+
+
+    .content-obsah-sport img{
+        height: 40vw    ;
+    }
+
+    .content-obsah-reverse img{
+    height: 36vw    ;
+    }
+
+    .main-element-sport h2{
+        font-size: 9vw;
+        margin-top: 0px;
+    }
+
+    .main-element-sport h1{
+    font-size: 14vw;
+    }
+
+    .main-element-sport p{
+    font-size: 3.4vw;
+    }
     .contact-flex img{
-        height: 50vw;
+        height: 60vw;
     }
 
     .contact-form{
@@ -1459,6 +1544,4 @@ input[type="submit"]:hover {
         font-size: 20px;
         height: 60px;
     }
-
   }
-  
