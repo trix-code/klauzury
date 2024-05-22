@@ -318,6 +318,8 @@ h2 span.stop-blinking::before {
 .card{
     width: 700px;
     height: 250px;
+    display: flex;
+    flex-direction: row;
     margin: auto;
     margin-top: 80px;
     background-color: #0a1f17;
@@ -360,7 +362,8 @@ h2 span.stop-blinking::before {
 
 .card img{
    margin-top: 40px;
-   margin-left: 40Px;
+   margin-left: 480Px;
+   position: absolute;
 }
 /*-----------Konec About- cards------------*/
 /*-----------Začátek SPORT------------*/
@@ -814,12 +817,13 @@ h2 span.stop-blinking::before {
   .contact-flex img{
     margin-top: 100px;
     margin: auto;
-    height: 23vw;
+    height: 35vw;
+    border-radius: 20px;
   }
 
   .contact-form{
     width: 40%;
-    height: 540px;
+    height: 560px;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -863,6 +867,7 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     margin: 15px auto;
+    margin-bottom: 30px;
     display: block;
     font-size: 20PX;
 }
