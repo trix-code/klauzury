@@ -410,14 +410,14 @@ main-element-sport h1{
 }
 
 .content-obsah-sport img {
-    margin-top: 100px;
+    margin-top: 200px;
     height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
 }
 
 .content-obsah-reverse img {
-    margin-top: 110px;
+    margin-top: 200px;
     height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
@@ -945,6 +945,8 @@ input[type="submit"]:hover {
 }
 
 /*------------Konec Footeru------------*/
+
+
 /*----------Responzivita menu---------- */
 
     #check {display: none;}
@@ -990,7 +992,8 @@ input[type="submit"]:hover {
     }
   }
 
-/*----------Responzivita puvodni sirky-- */
+ /*----------Responzivita puvodni sirky-- */
+
 /*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 1000px) {
     .text-conteiner h1{
@@ -1168,12 +1171,15 @@ input[type="submit"]:hover {
     .content-obsah-reverse h2, .content-obsah-sport h2{
         font-size: 7vw;
     }
-      
+
     .main-element-sport h1{
         font-size: 10vw;
     }
+    
   }
 /*-----------Responzivita tablet------------*/
+
+
 /*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 810px) {
     .text-conteiner h1{
@@ -1297,9 +1303,13 @@ input[type="submit"]:hover {
         height: 60vw;
     }
   }
+
 /*-----------Responzivita tablet------------*/
+
 /*-----------Responzivita mobil------------*/
+
   @media only screen and (max-width: 617px) {
+   
     .bg-img{
         display: none;
     }
@@ -1544,4 +1554,6 @@ input[type="submit"]:hover {
         font-size: 20px;
         height: 60px;
     }
+
   }
+  
