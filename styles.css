@@ -434,17 +434,19 @@ h2 span.stop-blinking::before {
 }
 
 .vs-main-text p{
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: justify;
 }
 
 .vs-text{
     width: 60%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .vs-text p{
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 
 .main-elements-code h2{
@@ -859,7 +861,7 @@ input[type="submit"]:hover {
         font-size: 9vw;
     }
     .vs-main-text p{
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
     .main-elements-code h2{
         font-size: 7vw;
