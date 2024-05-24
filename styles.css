@@ -11,7 +11,6 @@ body{
     min-height: 100vh;
     background-color: #12372A;   
 }
-
 .nav-bar {
     width: 100%;
     display: flex;
@@ -75,19 +74,14 @@ body{
     top: 20px;
     right: 20px;
 }
-
-
 /*------ Konec navbaru ------*/
-
 /*-------Zacatek Index main page------*/
-    
 .text-conteiner {
     text-align: center;
     width: 45%;
     margin-top: 150px;
     font-size: 20px;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 
 .icons-conteiner {
@@ -103,12 +97,6 @@ body{
 .icons-conteiner img {
     margin: 0  0px; 
     height: 9vw;
-}
-
-.text-conteiner h1{
-    font-size: 90px;
-    color: #FBFADA;
-    align-items: center;
 }
 
 .text-conteiner hr{
@@ -131,19 +119,13 @@ body{
     height: 100%;
     object-fit: cover;
 }
-
 /*------ Konec Index main page------*/
 /*------- Zacatek basdic elements------*/
-
 h1{
     font-size: 90px;
     text-align: center;
     color: #FBFADA;
     margin-top: 70px;
-}
-
-.main-text p{
-    font-size: 20px;
 }
 
 hr{
@@ -201,7 +183,6 @@ h2 span.stop-blinking::before {
     animation: none;
 }
 
-
 .img-h1{
     display: flex;
     justify-content: center;
@@ -211,101 +192,9 @@ h2 span.stop-blinking::before {
 .bg-about img{
     z-index: -999;
     position: absolute
-    
 }
 /*--------- Konec basic elements-------------*/
-/*-----------Začátek About- cards------------*/
 
-.cards-container{
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 130px;
-}
-
-.card{
-    width: 700px;
-    height: 250px;
-    margin: auto;
-    margin-top: 80px;
-    background-color: #0a1f17;
-    border-radius: 20px;
-    }
-
-.card-text{
-    display: flex;
-    flex-direction: column;
-    float: left;
-    text-align: center;
-    margin-left: 20px;
-    margin-top: -45px;
-}
-
-.card-text a{
-    color: #ffffff;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.card-text a:hover{
-    color: #FBFADA;
-    transition: 0.3s;
-}
-
-.card:hover{
-    background-color: #10241c;
-    transition: 0.3s;
-}
-
-.card h1{
-    font-size: 50px;
-}
-
-.card p{
-    font-size: 15px;
-    margin-top: 30px;
-}
-
-.card img{
-   margin-top: 40px;
-   margin-left: 40Px;
-
-}
-
-/*-----------Konec About- cards------------*/
-/*-----------Začátek Rocnik - cards------------*/
-
-.container-rocnik{
-    width: 75%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 130px;
-}
-
-.card-rocnik{
-    width: 400px;
-    height: 300px;
-    margin: auto;
-    margin-top: 80px;
-    background-color: #0a1f17;
-    border-radius: 20px;
-    }
-
-.card-rocnik img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45px;
-}
-
-.card-rocnik img:hover{
-    height: 210px;
-    transition: 0.3s;
-}
-
-/*-----------Konec Rocnik - cards------------*/
 /*-----------Zacatek About- cards------------*/
 .cards-container{
     width: 70%;
@@ -365,17 +254,13 @@ h2 span.stop-blinking::before {
    margin-left: 480Px;
    position: absolute;
 }
+
 /*-----------Konec About- cards------------*/
 /*-----------Začátek SPORT------------*/
-main-element-sport h1{
-    font-size: 90px;
-    text-align: center;
-    color: #FBFADA;
-    margin-top: 70px;
-}
+
 
 .main-element-sport h2{
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: #FBFADA;
 }
 
@@ -385,20 +270,17 @@ main-element-sport h1{
 
 .main-element-sport p{
     font-size: 1.5vw;
-    color: white;
     display: block;
     margin-top: 40Px;
     text-align: justify;
     width: 80%;
 }
 
-
 .content-obsah-sport{
     width: 70%;
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-top: 50px; 
 }
 
 .content-obsah-reverse{
@@ -406,18 +288,17 @@ main-element-sport h1{
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
-    margin-top: 60px; 
 }
 
 .content-obsah-sport img {
-    margin-top: 200px;
+    margin-top: 100px;
     height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
 }
 
 .content-obsah-reverse img {
-    margin-top: 200px;
+    margin-top: 150px;
     height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
@@ -436,28 +317,8 @@ main-element-sport h1{
     float: right;
 }
 
-/*-----------Začátek SPORT------------*/
+/*-----------KONEC SPORT------------*/
 
-/*-----------Začátek Gallery IMG- práce------------*/
-.work-gallery {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: space-around;
-}
-
-.gallery-img-vs {
-    position: relative;
-    margin: 30px;
-    overflow: hidden;
-}
-
-.gallery-img-vs img {
-    display: block;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    border-radius: 10px;
-}
 
 /*-----------Začátek Hoover efect------------*/
 .overlay-vs {
@@ -508,103 +369,64 @@ main-element-sport h1{
         opacity: 0;
     }
 }
-/*------------Zacatek Other Gallery------------*/
-
-.bg-about a{
-    color: #FBFADA;
-    font-size: 1.4vw;
-    display: flex;
-    justify-content: center;
-}
-
-.main-elements-other p{
-    display: flex;
-    justify-content: center;
-}
+/*------------Zacatek Wowk V-S-----------*/
 
 .work-gallery {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-around;
 }
 
-.work-gallery a{
-    color: #FBFADA;
-    font-size: 1.4vw
-}
-
-.gallery-img-other {
+.gallery-img-vs {
     position: relative;
-    margin: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-.gallery-img-other-hudba {
-    position: relative;
-    margin: 20px;
+    margin: 30px;
     overflow: hidden;
 }
 
-.gallery-img-other-hudba img {
+.gallery-img-vs img {
     display: block;
     transition: transform 0.5s ease, opacity 0.5s ease;
     border-radius: 10px;
 }
-
-.gallery-img-other img {
-    display: block;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    border-radius: 10px;
-}
-
-.overlay-other {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    align-items: center;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 20px;
-}
-
-
-.overlay-other a{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    margin-top: 50%;
-    text-decoration: none;
-}
-
-.gallery-img-other:hover img {
-    opacity: 0.3;
-}
-
-.gallery-img-other-hudba:hover img {
-    opacity: 0.3;
-}
-
-.gallery-img-other:hover .overlay-other {
-    opacity: 1;
-}
-
-.gallery-img-other-hudba:hover .overlay-other {
-    opacity: 1;
-}
-
-/*------------Konec Other Gallery------------*/
 
 /*------------Zacatek ABOUUT - CODE------------*/
+
+.vs-box-flex {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.vs-box {
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #0a1f17;
+}
+
+.vs-box:hover {
+    transition: 0.5s;
+    background-color: hsl(156, 54%, 11%);
+}
+
+.vs-box p{
+    position: absolute; /* Přidáno */
+    left: 0;
+    top: 0;
+    margin: 10px; /* Volitelné, pro odsazení od rohu */
+    z-index: 1; /* Přidáno, aby byl text nad obrázkem */
+}
 
 .vs-main-text{
     width: 50%;
@@ -759,7 +581,7 @@ main-element-sport h1{
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
- 
+
   .dot {
     cursor: pointer;
     height: 15px;
@@ -849,7 +671,7 @@ main-element-sport h1{
     background-color: #D7D7D7;
     justify-content: space-between;
     border-radius: 10px;
-    padding: 15px ;
+    padding: 5px ;
   }
   textarea{
     resize: none;
@@ -924,6 +746,12 @@ input[type="submit"]:hover {
     color: #FBFADA;
 }
 
+.footer-text a{
+    text-decoration: none;
+    color: #e7e7e3;
+    font-size: 15px;
+}
+
 .footer-nav li{
     list-style: none;
     margin: 30px 30px;
@@ -946,8 +774,6 @@ input[type="submit"]:hover {
 }
 
 /*------------Konec Footeru------------*/
-
-
 /*----------Responzivita menu---------- */
 
     #check {display: none;}
@@ -972,154 +798,106 @@ input[type="submit"]:hover {
         .menu li a {
             padding: 10px;
         }
-
-    
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
 }
-
 /*----------Responzivita menu---------- */
-/*----------Responzivita puvodni sirky-- */
-
-@media only screen and (max-width: 1920px) {
-    .text-conteiner h1{
-        margin-top: 80px;
-        font-size: 70px;
-    }
-
-    h2, h2 span{
-        margin-top: 50px;
-        font-size: 25px;
-    }
-  }
-
- /*----------Responzivita puvodni sirky-- */
-
 /*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 1000px) {
     .text-conteiner h1{
         margin-top: 30%;
         font-size: 70px;
     }
-
     h2, h2 span{
         margin-top: 100px;
         font-size: 25px;
     }
-
     .main-text{
         display: flex;
         flex-wrap: wrap;
         width: 55%;
     }
-
     .main-text p{
         font-size: 18px;
         text-align: center;
         margin-top: 0px;
     }
-
     p a{
         font-size: 20px;
         text-align: center;
     }
-
     .main-text img{
         margin: auto;
     }
-
-    
     .card img{
         display: none;
     }
-
     .card{
         display: flex;
         flex-wrap: wrap;
         width: 400px;
     }
-
     .card-text{
         margin: auto;
         margin-top: -40Px;
       }
-
     .card-text h1{
       font-size: 40px;
     }
-
     .card-text p{
         font-size: 12px;
       }
-
     .card-rocnik{
         height: 200px;
         width: 350px;
     }
-
     .card-rocnik img{
         height: 100px;
     }
-
     /*CODING*/
-
     .main-elements-code h1{
         font-size: 9vw;
     }
-
     .vs-main-text p{
         font-size: 1.5vw;
     }
-
     .main-elements-code h2{
         font-size: 7vw;
     }
-
     .vs-text p{
         font-size: 2vw;
     }
-
     .slideshow-container{
         max-width: 700px;
     }
-
     .main-elements-code a{
         font-size: 1.3vw;
     }
-
     .vs-code-img img{
         height: 45vw;
     }
-
     .contact-flex{
         display: flex;
         flex-direction: column;
     }
-
     /*CONTACT*/
-
     .contact-flex img{
         margin-top: 50px;
         height: 50vw;
     }
-
     .contact-form{
         width: 70%;
     }
-
     .main-element-contact P{
         font-size: 2vw;
     }
-
     .main-element-contact h3{
         font-size: 2.5vw;
     }
-
     .content-obsah-sport{
         display: flex;
         flex-direction: column;
     }
-
     .content-text{
         margin: auto;
         text-align: center;
@@ -1127,7 +905,6 @@ input[type="submit"]:hover {
     .main-element-sport a{
         font-size: 1.7vw;
     }
-
     .content-obsah-sport img{
         margin: auto;
         display: flex;
@@ -1135,32 +912,26 @@ input[type="submit"]:hover {
         margin-top: 30px;
         height: 30vw    ;
     }
-
     .main-element-sport h2{
-        font-size: 3vw;
+        font-size: 2vw;
     }
-
     .content-obsah-reverse{
         display: flex;
         flex-direction: column;
     }
-
     .content-text-reverse{
         margin: auto;
         text-align: center;
     }
-
     .main-element-sport p{
        font-size: 2vw;
        margin: auto;
        align-items: center;
        margin-top: 30px;
     }
-
     .content-text-reverse p{
         float: none;
     }
-
     .content-obsah-reverse img{
         margin: auto;
         display: flex;
@@ -1168,143 +939,21 @@ input[type="submit"]:hover {
         margin-top: 30px;
         height: 30vw;
     }
-
     .content-obsah-reverse h2, .content-obsah-sport h2{
         font-size: 7vw;
     }
-
     .main-element-sport h1{
         font-size: 10vw;
     }
-    
-  }
-/*-----------Responzivita tablet------------*/
 
-
-/*-----------Responzivita tablet------------*/
-  @media only screen and (max-width: 810px) {
-    .text-conteiner h1{
-        margin-top: 120px;
-        font-size: 60px;
-    }
-
-    h2, h2 span{
-        margin-top: 70px;
-        font-size: 25px;
-    }
-
-
-    h1{
-        font-size: 70px;
-    }
-
-    .main-text{
-        display: flex;
-        flex-wrap: wrap;
-        width: 65%;
-    }
-
-    .main-text p{
-        font-size: 18px;
-        text-align: center;
-        margin-top: -10px;
-    }
-
-    p a{
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .main-text img{
-        margin: auto;
-        height: 200px;
-        margin-top: -20px;
-    }
-
-    .work-gallery {
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .gallery-img-other img{
-        height: 300px;
-    }
-
-    .overlay-vs h1{
-        font-size: 30px;
-        margin-top: 50px;
-    }
-
-    .overlay-vs p{
-        font-size: 15px;
-        margin-top: 30px;
-    }
-
-    .overlay-vs a{
-        font-size: 12px;
+    .work-gallery{
+        width: 90%;
     }
 
     .gallery-img-vs img{
-        height: 260px;
-    }
-
-    .gallery-img-vs{
-        width: 90%;;
-    }
-
-    .bg-about a{
-        font-size: 3vw;
-    }
-
-    .gallery-img-hudba img{
-        height: 200px;
-    }
-
-    .skills{
-        max-width: 460px;
-    }
-
-    .main-elements-code h1{
-        font-size: 11vw;
-    }
-
-    .vs-main-text p{
-        font-size: 2.4vw;
-    }
-
-    .vs-main-text{
-        width: 70%;
-    }
-
-    .main-elements-code h2{
-        font-size: 8vw;
-    }
-
-    .vs-text p{
-        font-size: 2.5vw;
-    }
-    .vs-text{
-        width: 70%;
-    }
-
-    .slideshow-container{
-        max-width: 500px;
-    }
-
-    .main-elements-code a{
-        font-size: 2.5vw;
-    }
-
-    .main-elements-code hr{
-        margin-top: 4px;
-    }
-
-    .vs-code-img img{
-        height: 60vw;
+        height: 250Px;
     }
   }
-
 /*-----------Responzivita tablet------------*/
 
 /*-----------Responzivita mobil------------*/
@@ -1314,31 +963,25 @@ input[type="submit"]:hover {
     .bg-img{
         display: none;
     }
-
     .text-conteiner{
         margin: auto;
         text-align: center;
         width: 85%;
     }
-
     .icons-conteiner{
         left: 50%;
     }
-
     .icons-conteiner img{
         height: 20vw;
     }
-
     h1{
         font-size: 65px;
     }
-
     .main-text{
         display: flex;
         flex-wrap: wrap;
         width: 80%;
     }
-
     .main-text p{
         font-size: 15px;
         text-align: center;
@@ -1346,155 +989,111 @@ input[type="submit"]:hover {
         width: 70%;
         margin: auto;
     }
-
     p a{
         font-size: 4vw;
         text-align: center;
     }
-
     .main-text img{
         margin: auto;
         height: 200px;
         margin-top: -20px;
     }
-
     .footer-nav img{
         display: none;
     }
-
     .footer-nav li{
         font-size: 12px;
     }
-
     .footer-text p{
-        font-size: 7px;
+        font-size: 12px;
         margin-top: 20px;
     }
-
+    .footer-text a{
+        font-size: 12px;
+    }
     .card{
         height: 220px;
     }
-
     .card-text{
         margin: auto;
         margin-top: -50Px;
         width: 95%;
       }
-
     .card-text h1{
       font-size: 36px;
     }
-
     .card-text p{
         font-size: 10px;
       }
-
-    .work-gallery {
-        width: 100%;
-    }
-
     .gallery-img-vs img{
         height: 140px;
-    }
-
-    .overlay-other p{
-        font-size: 13px;
-        margin-top: 30px;
     }
 
     .img-h1 img{
         height: 150px;
     }
-    .gallery-img-other-hudba img{
-        height: 250px;
-    }
-
-    .gallery-img-other img{
-        height: 300Px;
-    }
-
-    .overlay-other{
-        border-radius: 10px;
-    }
-
     .work-gallery{
         width: 100%;
     }
-
     .overlay-vs h1{
         margin-top: 20px;
         font-size: 25px;
     }
-
     .overlay-vs p{
         font-size: 8px;
         margin-top: 30px;
     }
-
     .overlay-vs a{
         font-size: 10px;
         margin-top: 20px;
     }
-
-    .overlay-other a{
-        font-size: 20px;
+    .gallery-img-vs img{
+        height: 150px;
     }
-
-    .main-elements-other p {
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        margin-top: 50px;
-    }
-
     .skills{
         max-width: 400px;
     }
-
     .main-elements-code h1{
         font-size: 16vw;
     }
-
     .vs-main-text p{
         font-size: 2.7vw;
     }
     .vs-main-text{
         width: 70%;
     }
-
     .main-elements-code h2{
-        font-size: 14vw;
+        font-size: 12vw;
     }
-
     .vs-text p{
         font-size: 3.6vw;
     }
     .vs-text{
         width: 70%;
     }
-
+    .vs-box{
+        height: 300px;
+        width: 340Px;
+        margin: auto;
+        margin-top: 20px;
+    }
     .slideshow-container{
         max-width: 400px;
     }
-
     .dot{
         height: 8px;
         width: 8px;
     }
-
     .main-elements-code a{
         font-size: 4vw;
     }
-
     .vs-code-img{
         display: flex;
         flex-wrap: wrap;
     }
-
     .vs-code-img img{
         height: 100vw;
     }
-
     .main-elements-code hr{
         margin-top: 4px;
     }
@@ -1502,54 +1101,42 @@ input[type="submit"]:hover {
     /*SPORT*/
 
     .main-element-sport a{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
-
-
     .content-obsah-sport img{
         height: 40vw    ;
     }
-
     .content-obsah-reverse img{
-    height: 36vw    ;
+        height: 38vw    ;
     }
-
     .main-element-sport h2{
-        font-size: 9vw;
-        margin-top: 0px;
+        font-size: 11vw;
+        margin-top: 50px;
     }
-
     .main-element-sport h1{
-    font-size: 14vw;
+        font-size: 14vw;
     }
-
     .main-element-sport p{
-    font-size: 3.4vw;
+        font-size: 3.5vw;
     }
     .contact-flex img{
         height: 60vw;
     }
-
     .contact-form{
         width: 90%;
     }
-
     .contact-input{
         display: flex;
         flex-direction: column;
     }
-
     input{
         margin-top: 20px;
         width: 80%;
         height: 38px;
     }
-
     textarea{
         width: 80%;
-
     }
-
     input[type="submit"] {
         width: 60%;
         font-size: 20px;
