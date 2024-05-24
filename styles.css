@@ -1142,6 +1142,10 @@ input[type="submit"]:hover {
         font-size: 20px;
         height: 60px;
     }
-
+    .main-element-contact P{
+        font-size: 3.5vw;
+    }
+    .main-element-contact h3{
+        font-size: 4.5vw;
+    }
   }
-  
