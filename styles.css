@@ -1148,4 +1148,8 @@ input[type="submit"]:hover {
     .main-element-contact h3{
         font-size: 4.5vw;
     }
+    h2 span::before{
+        display: none;
+    }
   }
+  
