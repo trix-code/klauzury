@@ -150,6 +150,13 @@ h3{
     color: #FBFADA;
 }
 
+h4{
+    font-size: 80px;
+    text-align: center;
+    color: #FBFADA;
+    margin-top: 70px;
+}
+
 p {
     font-size: 20px;
     margin-top: 50px;
@@ -196,6 +203,45 @@ h2 span.stop-blinking::before {
 /*--------- Konec basic elements-------------*/
 
 /*-----------Zacatek About- cards------------*/
+
+
+.main-element-about h2{
+    font-size: 4.5vw;
+    color: #FBFADA;
+}
+
+.main-element-about b{
+    color: #FBFADA ;
+}
+
+.main-element-about p{
+    font-size: 1.5vw;
+    display: block;
+    margin-top: 40Px;
+    text-align: justify;
+    width: 80%;
+}
+
+.content-obsah-about{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.content-obsah-about img {
+    margin-top: 80px;
+    height: 330px; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.content-text-about a{
+    color: #FBFADA;
+    font-size: 1.2vw
+}
+
+
 .cards-container{
     width: 70%;
     margin: auto;
@@ -240,7 +286,15 @@ h2 span.stop-blinking::before {
     transition: 0.3s;
 }
 
+.h1-web h1{ 
+    font-size: 20px;
+}
+
 .card h1{
+    font-size: 50px;
+}
+
+.card h4{
     font-size: 50px;
 }
 
@@ -846,6 +900,7 @@ input[type="submit"]:hover {
     .card-text h1{
       font-size: 40px;
     }
+
     .card-text p{
         font-size: 12px;
       }
@@ -868,6 +923,9 @@ input[type="submit"]:hover {
     }
     .vs-text p{
         font-size: 2vw;
+    }
+    .card-text h4{
+        font-size: 40px;
     }
     .slideshow-container{
         max-width: 700px;
@@ -896,6 +954,30 @@ input[type="submit"]:hover {
     .main-element-contact h3{
         font-size: 2.5vw;
     }
+    .content-obsah-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-text-about{
+        margin: auto;
+        text-align: center;
+    }
+    .main-element-about a{
+        font-size: 1.7vw;
+    }
+    .content-obsah-about img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw    ;
+    }
+    .main-element-about h2{
+        font-size: 2vw;
+    }
+
+    ---------------------
+
     .content-obsah-sport{
         display: flex;
         flex-direction: column;
@@ -969,6 +1051,12 @@ input[type="submit"]:hover {
         margin: auto;
         text-align: center;
         width: 85%;
+    }
+    .text-conteiner h1{
+        font-size: 15vw;
+    }
+    .text-conteiner h2 span,h2{
+        font-size: 6vw;
     }
     .icons-conteiner{
         left: 50%;
@@ -1069,6 +1157,7 @@ input[type="submit"]:hover {
     }
     .vs-text p{
         font-size: 3.6vw;
+        text-align: center;
     }
     .vs-text{
         width: 70%;
@@ -1078,6 +1167,9 @@ input[type="submit"]:hover {
         width: 340Px;
         margin: auto;
         margin-top: 20px;
+    }
+    .card-text h4{
+        font-size: 27px;
     }
     .slideshow-container{
         max-width: 400px;
@@ -1099,9 +1191,44 @@ input[type="submit"]:hover {
     .main-elements-code hr{
         margin-top: 4px;
     }
-
+    /* ABout text */
+    .content-obsah-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-text-about{
+        margin: auto;
+        text-align: center;
+    }
+    .main-element-about a{
+        font-size: 1.7vw;
+    }
+    .content-obsah-about img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw    ;
+    }
+    .main-element-about a{
+        font-size: 2.5vw;
+    }
+    .content-obsah-about img{
+        height: 40vw    ;
+    }
+    .main-element-about h2{
+        font-size: 11vw;
+        margin-top: 50px;
+    }
+    .main-element-about H1{
+        font-size: 14vw;
+    }
+    .main-element-about p{
+        font-size: 3.5vw;
+        margin: auto;
+        margin-top: 30px;
+    }
     /*SPORT*/
-
     .main-element-sport a{
         font-size: 2.5vw;
     }
