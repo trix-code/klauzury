@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -79,7 +80,7 @@ body{
 .text-conteiner {
     text-align: center;
     width: 45%;
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 20px;
     margin-left: 20px; 
 }
@@ -204,34 +205,28 @@ h2 span.stop-blinking::before {
 
 /*-----------Zacatek About- cards------------*/
 
-
-.main-element-about h2{
-    font-size: 4.5vw;
-    color: #FBFADA;
-}
-
 .main-element-about b{
     color: #FBFADA ;
 }
 
 .main-element-about p{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     display: block;
-    margin-top: 40Px;
+    margin-top: 100Px;
     text-align: justify;
-    width: 80%;
+    width: 70%;
 }
 
 .content-obsah-about{
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     margin: auto;
 }
 
 .content-obsah-about img {
-    margin-top: 80px;
-    height: 330px; 
+    margin-top: 50px;
+    height: 20vw; 
     border-radius: 10px;
     object-fit: cover; 
 }
@@ -372,8 +367,6 @@ h2 span.stop-blinking::before {
 }
 
 /*-----------KONEC SPORT------------*/
-
-
 /*-----------Začátek Hoover efect------------*/
 .overlay-vs {
     position: absolute;
@@ -449,7 +442,7 @@ h2 span.stop-blinking::before {
 
 .vs-box-flex {
     display: flex;
-    width: 80%;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
@@ -862,7 +855,7 @@ input[type="submit"]:hover {
   @media only screen and (max-width: 1000px) {
     .text-conteiner h1{
         margin-top: 30%;
-        font-size: 70px;
+        font-size: 60px;
     }
     h2, h2 span{
         margin-top: 100px;
@@ -902,7 +895,7 @@ input[type="submit"]:hover {
     }
 
     .card-text p{
-        font-size: 12px;
+        font-size: 16px;
       }
     .card-rocnik{
         height: 200px;
@@ -972,10 +965,11 @@ input[type="submit"]:hover {
         margin-top: 30px;
         height: 30vw    ;
     }
-    .main-element-about h2{
+    .main-element-about p{
+        margin: auto;
+        margin-top: 50px;
         font-size: 2vw;
     }
-
     ---------------------
 
     .content-obsah-sport{
@@ -1065,7 +1059,7 @@ input[type="submit"]:hover {
         height: 20vw;
     }
     h1{
-        font-size: 65px;
+        font-size: 13vw;
     }
     .main-text{
         display: flex;
@@ -1113,7 +1107,7 @@ input[type="submit"]:hover {
       font-size: 36px;
     }
     .card-text p{
-        font-size: 10px;
+        font-size: 3vw;
       }
     .gallery-img-vs img{
         height: 140px;
@@ -1199,6 +1193,7 @@ input[type="submit"]:hover {
     .content-text-about{
         margin: auto;
         text-align: center;
+        width: 100%;
     }
     .main-element-about a{
         font-size: 1.7vw;
@@ -1214,11 +1209,7 @@ input[type="submit"]:hover {
         font-size: 2.5vw;
     }
     .content-obsah-about img{
-        height: 40vw    ;
-    }
-    .main-element-about h2{
-        font-size: 11vw;
-        margin-top: 50px;
+        height: 50vw    ;
     }
     .main-element-about H1{
         font-size: 14vw;
@@ -1227,6 +1218,7 @@ input[type="submit"]:hover {
         font-size: 3.5vw;
         margin: auto;
         margin-top: 30px;
+        width: 100%;
     }
     /*SPORT*/
     .main-element-sport a{
