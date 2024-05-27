@@ -33,7 +33,6 @@ body{
     padding-left: 40px;
     font-size: 20px;
     }
-
 .menu li a {
     display: inline-block;
     text-decoration: none;
@@ -42,7 +41,6 @@ body{
     transition: 0.5s ease-in-out;
     position: relative;
 }
-
 .menu li a::after {
     content: "";
     position: absolute;
@@ -53,11 +51,9 @@ body{
     background-color: rgb(255, 255, 255);
     transition: 0.5s ease-in-out;
 }
-
 .menu li a:hover:after {
     width: 100%;
     }
-
 .open-menu , .close-menu {
     position: absolute;
     color: rgb(255, 255, 255);
@@ -65,7 +61,6 @@ body{
     font-size: 1.5rem;
     display: none;
     }
-
 .open-menu {
     top: 50%;
     right: 20px;
@@ -83,6 +78,10 @@ body{
     margin-top: 100px;
     font-size: 20px;
     margin-left: 20px; 
+}
+
+.text-conteiner h1{
+    font-size: 6vw;
 }
 
 .icons-conteiner {
@@ -226,7 +225,7 @@ h2 span.stop-blinking::before {
 
 .content-obsah-about img {
     margin-top: 50px;
-    height: 20vw; 
+    height: 23vw; 
     border-radius: 10px;
     object-fit: cover; 
 }
@@ -854,7 +853,7 @@ input[type="submit"]:hover {
 /*-----------Responzivita tablet------------*/
   @media only screen and (max-width: 1000px) {
     .text-conteiner h1{
-        margin-top: 30%;
+        margin-top: 20%;
         font-size: 60px;
     }
     h2, h2 span{
@@ -963,7 +962,7 @@ input[type="submit"]:hover {
         display: flex;
         justify-content: center;
         margin-top: 30px;
-        height: 30vw    ;
+        height: 35vw;
     }
     .main-element-about p{
         margin: auto;
@@ -1045,9 +1044,10 @@ input[type="submit"]:hover {
         margin: auto;
         text-align: center;
         width: 85%;
+        margin-top: 100px;
     }
     .text-conteiner h1{
-        font-size: 15vw;
+        font-size: 11,5vw;
     }
     .text-conteiner h2 span,h2{
         font-size: 6vw;
@@ -1132,7 +1132,7 @@ input[type="submit"]:hover {
         margin-top: 20px;
     }
     .gallery-img-vs img{
-        height: 150px;
+        height: 40vw;
     }
     .skills{
         max-width: 400px;
@@ -1241,7 +1241,7 @@ input[type="submit"]:hover {
         font-size: 3.5vw;
     }
     .contact-flex img{
-        height: 60vw;
+        height: 70vw;
     }
     .contact-form{
         width: 90%;
