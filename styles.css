@@ -971,26 +971,22 @@ input[type="submit"]:hover {
     }
     ---------------------
 
-    .content-obsah-sport{
-        display: flex;
-        flex-direction: column;
-    }
     .content-text{
         margin: auto;
         text-align: center;
     }
     .main-element-sport a{
         font-size: 1.7vw;
-    }
-    .content-obsah-sport img{
-        margin: auto;
         display: flex;
         justify-content: center;
-        margin-top: 30px;
-        height: 30vw    ;
     }
     .main-element-sport h2{
-        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+    }
+    .content-obsah-sport{
+        display: flex;
+        flex-direction: column;
     }
     .content-obsah-reverse{
         display: flex;
@@ -1008,6 +1004,13 @@ input[type="submit"]:hover {
     }
     .content-text-reverse p{
         float: none;
+    }
+    .content-obsah-sport img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        height: 30vw;
     }
     .content-obsah-reverse img{
         margin: auto;
