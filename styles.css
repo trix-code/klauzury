@@ -78,11 +78,9 @@ body{
     font-size: 20px;
     margin-left: 20px; 
 }
-
 .text-conteiner h1{
     font-size: 6vw;
 }
-
 .icons-conteiner {
     position: absolute;
     bottom: 30px; 
@@ -92,18 +90,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .icons-conteiner img {
     margin: 0  0px; 
     height: 9vw;
 }
-
 .text-conteiner hr{
     width: 50%;
     margin: auto;
     border: 2px solid rgb(255, 255, 255);
 }
-
 .bg-img {
     position: absolute;
     top: 0;
@@ -112,7 +107,6 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-
 .bg-img img{
     width: 100%;
     height: 100%;
@@ -126,53 +120,44 @@ h1{
     color: #FBFADA;
     margin-top: 70px;
 }
-
 hr{
     margin: auto;
     border: 2px solid rgb(255, 255, 255);
     width: 15%;
 }
-
 b{
     color: #FBFADA;
 }
-
 h2{
     font-size: 30px;
     margin-top: 80Px;
     color: #fff;
 }
-
 h3{
     font-size: 30px;
     margin-top: 80Px;
     color: #FBFADA;
 }
-
 h4{
     font-size: 80px;
     text-align: center;
     color: #FBFADA;
     margin-top: 70px;
 }
-
 p {
     font-size: 20px;
     margin-top: 50px;
     color: #fff;
 }
-
 p a{
     font-size: 1.3vw;
     color: #FBFADA;
 }
-
 h2 span {
     color: #FBFADA;
     position: relative;
     font-size: 30px;
 }
-
 h2 span::before {
     content: "";
     height: 30px;
@@ -184,15 +169,8 @@ h2 span::before {
     transform: translateY(-45%);
     animation: blink 0.7s infinite;
 }
-
 h2 span.stop-blinking::before {
     animation: none;
-}
-
-.img-h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
 }
 
 .bg-about img{
@@ -200,13 +178,11 @@ h2 span.stop-blinking::before {
     position: absolute
 }
 /*--------- Konec basic elements-------------*/
-
 /*-----------Zacatek About- cards------------*/
 
 .main-element-about b{
     color: #FBFADA ;
 }
-
 .main-element-about p{
     font-size: 1.6vw;
     display: block;
@@ -214,27 +190,22 @@ h2 span.stop-blinking::before {
     text-align: justify;
     width: 70%;
 }
-
 .content-obsah-about{
     width: 60%;
     display: flex;
     flex-direction: row;
     margin: auto;
 }
-
 .content-obsah-about img {
     margin-top: 50px;
     height: 23vw; 
     border-radius: 10px;
     object-fit: cover; 
 }
-
 .content-text-about a{
     color: #FBFADA;
     font-size: 1.2vw
 }
-
-
 .cards-container{
     width: 70%;
     margin: auto;
@@ -242,7 +213,6 @@ h2 span.stop-blinking::before {
     flex-wrap: wrap;
     margin-bottom: 130px;
 }
-
 .card{
     width: 700px;
     height: 250px;
@@ -253,7 +223,6 @@ h2 span.stop-blinking::before {
     background-color: #0a1f17;
     border-radius: 20px;
     }
-
 .card-text{
     display: flex;
     flex-direction: column;
@@ -262,59 +231,40 @@ h2 span.stop-blinking::before {
     margin-left: 20px;
     margin-top: -45px;
 }
-
 .card-text a{
     color: #ffffff;
     margin-top: 20px;
     font-size: 20px;
 }
-
 .card-text a:hover{
     color: #FBFADA;
     transition: 0.3s;
 }
-
 .card:hover{
     background-color: #10241c;
     transition: 0.3s;
 }
-
-.h1-web h1{ 
-    font-size: 20px;
-}
-
-.card h1{
-    font-size: 50px;
-}
-
 .card h4{
     font-size: 50px;
 }
-
 .card p{
     font-size: 15px;
     margin-top: 30px;
 }
-
 .card img{
    margin-top: 40px;
    margin-left: 480Px;
    position: absolute;
 }
-
 /*-----------Konec About- cards------------*/
 /*-----------Začátek SPORT------------*/
-
-
 .main-element-sport h2{
     font-size: 4.5vw;
     color: #FBFADA;
 }
-
 .main-element-sport b{
     color: #FBFADA ;
 }
-
 .main-element-sport p{
     font-size: 1.5vw;
     display: block;
@@ -322,48 +272,40 @@ h2 span.stop-blinking::before {
     text-align: justify;
     width: 80%;
 }
-
 .content-obsah-sport{
     width: 70%;
     display: flex;
     flex-direction: row;
     margin: auto;
 }
-
 .content-obsah-reverse{
     width: 70%;
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
 }
-
 .content-obsah-sport img {
     margin-top: 100px;
     height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
 }
-
 .content-obsah-reverse img {
     margin-top: 150px;
     height: 330px; 
     border-radius: 10px;
     object-fit: cover; 
 }
-
 .content-text a{
     color: #FBFADA;
     font-size: 1.2vw
 }
-
 .content-text-reverse{
     text-align: right;
 }
-
 .content-text-reverse p{
     float: right;
 }
-
 /*-----------KONEC SPORT------------*/
 /*-----------Začátek Hoover efect------------*/
 .overlay-vs {
@@ -381,12 +323,10 @@ h2 span.stop-blinking::before {
     text-align: center;
     border-radius: 10px;
 }
-
 .overlay-vs h1{
     margin-top: 120px;
     font-size: 1.5vw
 }
-
 .overlay-vs a{
     display: flex;
     justify-content: center;
@@ -396,13 +336,11 @@ h2 span.stop-blinking::before {
 .gallery-img-vs:hover img {
     opacity: 0.3;
 }
-
 .gallery-img-vs:hover .overlay-vs {
     opacity: 1;
 }
 /*-----------konec Hoover efect------------*/
 /*------------Konec Gallery IMG- práce------------*/
-
 @keyframes blink {
     0% {
         opacity: 0;
@@ -415,7 +353,6 @@ h2 span.stop-blinking::before {
     }
 }
 /*------------Zacatek Wowk V-S-----------*/
-
 .work-gallery {
     width: 90%;
     display: flex;
@@ -423,21 +360,17 @@ h2 span.stop-blinking::before {
     margin: auto;
     justify-content: space-around;
 }
-
 .gallery-img-vs {
     position: relative;
     margin: 30px;
     overflow: hidden;
 }
-
 .gallery-img-vs img {
     display: block;
     transition: transform 0.5s ease, opacity 0.5s ease;
     border-radius: 10px;
 }
-
 /*------------Zacatek ABOUUT - CODE------------*/
-
 .vs-box-flex {
     display: flex;
     width: 90%;
@@ -446,7 +379,6 @@ h2 span.stop-blinking::before {
     margin: auto;
     margin-top: 50px;
 }
-
 .vs-box {
     height: 300px;
     width: 400px;
@@ -459,73 +391,61 @@ h2 span.stop-blinking::before {
     margin-left: 10px;
     background-color: #0a1f17;
 }
-
 .vs-box:hover {
     transition: 0.5s;
     background-color: hsl(156, 54%, 11%);
 }
-
 .vs-box p{
     position: absolute; /* Přidáno */
     left: 0;
     top: 0;
-    margin: 10px; /* Volitelné, pro odsazení od rohu */
-    z-index: 1; /* Přidáno, aby byl text nad obrázkem */
+    margin: 10px; 
+    z-index: 1; 
 }
-
 .vs-main-text{
     width: 50%;
     margin: auto;
 }
-
 .vs-main-text p{
     font-size: 1vw;
     text-align: justify;
 }
-
 .vs-text{
     width: 60%;
     margin: auto;
     display: flex;
     justify-content: center;
 }
-
 .vs-text p{
     font-size: 1.2vw;
 }
-
 .main-elements-code h2{
     font-size: 4.5vw;
     text-align: center;
     color: #FBFADA;
     margin-top: 70px;
 }
-
 .main-elements-code hr{
     margin: auto;
     border: 3px solid rgb(255, 255, 255);
     width: 15%;
     margin-top: 10px;
 }
-
 .main-elements-code p{
     font-size: 1vw;
     margin-top: 50px;
     color: #fff;
     text-align: justify;
 }
-
 .main-elements-code a{
     font-size: 1vw;
     color: #FBFADA;
     display: flex;
     justify-content: center;
 }
-
 .vs-text img{
     margin: auto;
 }
-
 .vs-code-img{
     display: flex;
     flex-direction: row;
@@ -535,20 +455,16 @@ h2 span.stop-blinking::before {
     gap: 20px;
     width: 50%;
 }
-
 .vs-code-img img{
     height: 34vw;
 }
-
 /*----------ZACATEK PROGRESS BARU---------- */
-  
 .skills{
     width: 100%;
     max-width: 600px;
     padding: 0 20px;
     margin: auto;
 }
-  
 .skill-name{
     font-size: 18px;
     font-weight: 700;
@@ -556,21 +472,18 @@ h2 span.stop-blinking::before {
     text-transform: uppercase;
     margin: 20px 0;
 }
-  
 .skill-bar{
     height: 14px;
     background: #282828;
     border-radius: 3px;
-}
-  
+} 
 .skill-per{
     height: 14px;
     background: #d13639;
     border-radius: 3px;
     position: relative;
     animation: fillBars 4.5s 1;
-}
-  
+}  
 .skill-per::before{
     content: attr(per);
     position: absolute;
@@ -581,8 +494,7 @@ h2 span.stop-blinking::before {
     top: -35px;
     right: 0;
     transform: translateX(50%);
-}
-  
+}  
 .skill-per::after{
     content: "";
     position: absolute;
@@ -595,16 +507,14 @@ h2 span.stop-blinking::before {
     border-radius: 2px;
 }
 /*----------KONEC PROGRESS BARU---------- */
-
 /*----------ZACATEK SLIDE SWHOW---------- */
 .slideshow-container {
     position: relative;
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
-  }
-  
-  /* Next & previous buttons */
+  } 
+  /* Dalsi a predesli button */
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -618,17 +528,14 @@ h2 span.stop-blinking::before {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
+  } 
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-
   .dot {
     cursor: pointer;
     height: 15px;
@@ -639,30 +546,24 @@ h2 span.stop-blinking::before {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
   .active, .dot:hover {
     background-color: #FBFADA;
-  }
-  
+  } 
   .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 0.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
+  } 
   @-webkit-keyframes fade {
     from {opacity: .7} 
     to {opacity: 1}
-  }
-  
+  } 
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
   }
-
-  
-  
+ 
 @keyframes fillBars{
     from{
       width: 0;
@@ -671,11 +572,8 @@ h2 span.stop-blinking::before {
       width: 100%;
     }
   }
-
-  /*----------KONEC SLIDE SWHOW---------- */
-  
+/*----------KONEC SLIDE SWHOW---------- */ 
 /*----------ZACATEK CONTACTU---------- */
-
   .contact-flex{
     display: flex;
     width: 80%;
@@ -683,13 +581,11 @@ h2 span.stop-blinking::before {
     justify-content: center;
     margin: auto;
   }
-
   .contact-flex img{
     margin: auto;
     height: 28vw;
     border-radius: 20px;
   }
-
   .contact-form{
     width: 40%;
     height: 540px;
@@ -701,16 +597,13 @@ h2 span.stop-blinking::before {
     margin-top: 30px;
     border-radius: 10px;
   }
-
 .contact-input{
     display: flex;
     flex-direction: column;
 }
-
 .input-name{
     margin-top: 25px;
 }
-
   input{
     resize: none;
     height: 50px;
@@ -736,7 +629,6 @@ h2 span.stop-blinking::before {
     padding: 8PX;
     font-size: 20px;
 }
-
 input[type="submit"] {
     padding: 10px 20px;
     background-color: #ECECEC;
@@ -767,18 +659,14 @@ input[type="submit"]:hover {
     margin-top: 30px;
     text-align: center;
   }
-
   .main-element-contact h3{
     margin-top: 10px;
     display: flex;
     justify-content: center;
     font-size: 2vw;
   }
-
-
 /*----------KONEC CONTACTU---------- */
 /*------------Zacatek Footru------------*/
-
 .footer{
     right: 0;
     left: 0;
@@ -786,49 +674,40 @@ input[type="submit"]:hover {
     height: 140px;
     margin-top: 100px;
 }
-
 .footer-nav{
     font-size: 20px;
     margin-top: 0;
     display: flex;
     justify-content: center;
 }
-
 .footer-nav a{
     text-decoration: none;
     color: #FBFADA;
 }
-
 .footer-text a{
     text-decoration: none;
     color: #e7e7e3;
     font-size: 15px;
 }
-
 .footer-nav li{
     list-style: none;
     margin: 30px 30px;
     font-size: 15px;
 }
-
 .footer-nav img{
     margin-top: 20px;
 }
-
 .footer-text{
     display: flex;
     justify-content: center;
 }
-
 .footer-text p{
    color: #e7e7e3;
    margin-top: 20px;
    font-size: 15px;
 }
-
 /*------------Konec Footeru------------*/
 /*----------Responzivita menu---------- */
-
     #check {display: none;}
     @media(max-width: 810px){
         .menu {
