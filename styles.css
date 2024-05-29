@@ -693,7 +693,7 @@ h2 span.stop-blinking::before {
 
   .contact-form{
     width: 40%;
-    height: 500px;
+    height: 540px;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -706,6 +706,10 @@ h2 span.stop-blinking::before {
 .contact-input{
     display: flex;
     flex-direction: column;
+}
+
+.input-name{
+    margin-top: 25px;
 }
 
   input{
@@ -730,7 +734,7 @@ h2 span.stop-blinking::before {
     margin-top: 20px;
     background-color: #D7D7D7;
     border-radius: 10px;
-    padding: 10PX;
+    padding: 8PX;
     font-size: 20px;
 }
 
@@ -741,7 +745,7 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     margin: 15px auto;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     display: block;
     font-size: 20PX;
 }
@@ -939,6 +943,9 @@ input[type="submit"]:hover {
         margin-top: 50px;
         height: 50vw;
     }
+    .input-name{
+        margin-top: 20px;
+    }
     .contact-form{
         width: 70%;
     }
@@ -1101,7 +1108,7 @@ input[type="submit"]:hover {
         font-size: 12px;
     }
     .card{
-        height: 220px;
+        height: 250px;
     }
     .card-text{
         margin: auto;
@@ -1114,6 +1121,12 @@ input[type="submit"]:hover {
     .card-text p{
         font-size: 3vw;
       }
+      .card-text h4{
+        font-size: 27px;
+    }
+    .card-text a{
+        font-size: 4,8vw;
+    }
     .gallery-img-vs img{
         height: 140px;
     }
@@ -1166,12 +1179,6 @@ input[type="submit"]:hover {
         width: 340Px;
         margin: auto;
         margin-top: 20px;
-    }
-    .card-text h4{
-        font-size: 27px;
-    }
-    .card-text a{
-        font-size: 3vw;
     }
     .slideshow-container{
         max-width: 400px;
@@ -1257,6 +1264,9 @@ input[type="submit"]:hover {
     .contact-input{
         display: flex;
         flex-direction: column;
+    }
+    .input-name{
+        margin-top: 15px;
     }
     input{
         margin-top: 20px;
