@@ -498,10 +498,10 @@ h2 span.stop-blinking::before {
 .skill-per::after{
     content: "";
     position: absolute;
-    width: 10px;
-    height: 5px;
+    width: 8px;
+    height: 8px;
     background: #f1f1f1;
-    top: -20px;
+    top: -17px;
     right: 0;
     transform: translateX(50%) rotate(45deg);
     border-radius: 2px;
