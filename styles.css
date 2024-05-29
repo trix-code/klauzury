@@ -587,7 +587,7 @@ h2 span.stop-blinking::before {
 .skill-per::after{
     content: "";
     position: absolute;
-    width: 5px;
+    width: 10px;
     height: 10px;
     background: #f1f1f1;
     top: -20px;
