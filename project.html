@@ -10,12 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="script.js" defer></script>
+    <script src="js/script.js" defer></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-
 <body>
+    <header>
     <nav>
         <ul class='nav-bar'>
             <li class='logo'><a href='index.html'><img src='pictures/./icons/logo.png'/></a></li>
@@ -29,78 +29,27 @@
             <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
         </ul>
     </nav>
-
-    <div class="bg-about">
-        <img src="pictures/bg-images/bg-work.png" height="¨90%" width="100%">
-    </div>
-    
-    <h1>Projekty</h1>
-    <hr>
-
-    <div class="work-gallery">
-        <div data-aos="fade-right">
-            <a href="https://github.com/trix-code/Oblibeny-serial" target="_blank">
-                <div class="gallery-img-vs">
-                    <img src="pictures/work- photos/bigbangtheorey-bg 2.png" height="400px">
-                        <div class="overlay-vs">
-                            <div class="overlay-vs">
-                                <h1>Oblíbeny Seriál</h1>
-                                <p>Použité jazyky: HTML,css, JavaScript</p>
-                            </div>
-                        </div>
-                </div>
-            </a>
-        </div>
-        <div data-aos="fade-right">
-            <a href="https://github.com/trix-code/Apple-Vision-Pro-Project" target="_blank">
-                <div class="gallery-img-vs">
-                    <img src="pictures/work- photos/apple-vision.png" height="400px">
-                        <div class="overlay-vs">
-                            <h1>Apple Vision Pro</h1>
-                            <p>Použité jazyky: HTML,css, JavaScript</p>
-                        </div>
-                </div>
-            </a>
-        </div>
-        <div data-aos="fade-right">
-            <a href="https://github.com/trix-code/Talentovky" target="_blank">
-                <div class="gallery-img-vs">
-                    <img src="pictures/work- photos/talentovky.png" height="400px">
-                        <div class="overlay-vs">
-                            <h1>Talentovky</h1>
-                            <p>Použité jazyky: HTML,css, JavaScript</p>
-                        </div>
-                </div>
-            </a>
-        </div>
-        <div data-aos="fade-right">
-            <a href="https://github.com/trix-code/Typing-Text-Effect-Javascript" target="_blank">
-                <div class="gallery-img-vs">
-                    <img src="pictures/work- photos/typing-text.png" height="400px">
-                        <div class="overlay-vs">
-                            <h1>Typing Efect</h1>
-                            <p>Použité jazyky: HTML,css, JavaScript</p>
-                        </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div data-aos="fade-right">
-        <div class="footer">
-            <div class="footer-nav">
-                <img src="pictures/icons/ig.png" height="35px" target="_blank"><a href="https://www.instagram.com/tomas.kotikk/"><li>Instagram</li></a>
-                    <img src="pictures/icons/github.png" height="35px" target="_blank"><a href="https://github.com/trix-code"><li>Github</li></a>
-                <img src="pictures/icons/spotify.png" height="35px" target="_blank"><a href="https://open.spotify.com/playlist/6HpgjMmzlQheRbyJet7djT?si=437a514f4cf4452a"><li>Spotify</li></a>
+    </header>
+        <div class="text-conteiner">
+            <div data-aos="fade-right">
+                <h1>Tomáš Kotík</h1>
             </div><hr>
-
-            <div class="footer-text">
-                <p>Icons by <a href="https://www.iconfinder.com" target="_blank">Iconsfinder</a></p>
-            </div>
+                <div data-aos="fade-right">
+                    <h2>Jsem <span></span></h2> 
+                </div>
+                <div class="icons-conteiner">
+                    <img src="pictures/icons/html.png" alt="">
+                    <img src="pictures/icons/css.png" alt="">
+                    <img src="pictures/icons/js.png" alt="">
+                </div>
         </div>
-    </div>
+            
+        <div class="bg-img">
+            <img src="pictures/work- photos/banner.png" height="700px" width="50%">
+        </div>
 
-    <script>
-        AOS.init();
-      </script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>
