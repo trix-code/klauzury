@@ -583,7 +583,7 @@ h2 span.stop-blinking::before {
   }
   .contact-flex img{
     margin: auto;
-    height: 28vw;
+    height: 26vw;
     border-radius: 20px;
   }
   .contact-form{
@@ -626,7 +626,7 @@ h2 span.stop-blinking::before {
     margin-top: 20px;
     background-color: #D7D7D7;
     border-radius: 10px;
-    padding: 8PX;
+    padding: 9PX;
     font-size: 20px;
 }
 input[type="submit"] {
@@ -819,7 +819,7 @@ input[type="submit"]:hover {
     /*CONTACT*/
     .contact-flex img{
         margin-top: 50px;
-        height: 50vw;
+        height: 40vw;
     }
     .input-name{
         margin-top: 20px;
@@ -1137,7 +1137,7 @@ input[type="submit"]:hover {
         font-size: 3.5vw;
     }
     .contact-flex img{
-        height: 70vw;
+        height: 60vw;
     }
     .contact-form{
         width: 100%;
