@@ -687,7 +687,7 @@ input[type="submit"]:hover {
 .footer-text a{
     text-decoration: none;
     color: #e7e7e3;
-    font-size: 15px;
+    font-size: 10px;
 }
 .footer-nav li{
     list-style: none;
@@ -704,7 +704,7 @@ input[type="submit"]:hover {
 .footer-text p{
    color: #e7e7e3;
    margin-top: 20px;
-   font-size: 15px;
+   font-size: 10px;
 }
 /*------------Konec Footeru------------*/
 /*----------Responzivita menu---------- */
@@ -979,14 +979,14 @@ input[type="submit"]:hover {
         font-size: 12px;
     }
     .footer-text p{
-        font-size: 12px;
+        font-size: 8px;
         margin-top: 20px;
     }
     .footer-text a{
-        font-size: 12px;
+        font-size: 8px;
     }
     .card{
-        height: 250px;
+        height: 225px;
     }
     .card-text{
         margin: auto;
@@ -998,6 +998,9 @@ input[type="submit"]:hover {
     }
     .card-text p{
         font-size: 3vw;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
       }
       .card-text h4{
         font-size: 27px;
